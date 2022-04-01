@@ -19,7 +19,6 @@ import akka.http.scaladsl.Http
 import akka.http.scaladsl.unmarshalling.Unmarshaller
 import akka.stream.scaladsl.Source
 import akka.util.ByteString
-import akka.NotUsed
 
 import scala.collection.mutable.ListBuffer
 

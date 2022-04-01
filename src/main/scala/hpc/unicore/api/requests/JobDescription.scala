@@ -23,6 +23,7 @@ import scala.collection.mutable.ListBuffer
   * @param name Name of the job.
   * @param tags Tags that can be used to filter the job when listing.
   * @param jobType Types: normal: batch, interactive: login node.
+  *                 Defaults to `"normal"`.
   */
 case class JobDescription(
     @generic.extras.JsonKey("Executable") executable: String,
@@ -34,13 +35,12 @@ case class JobDescription(
     @generic.extras.JsonKey("Exports") exports: Option[List[UnicoreIO]] = None,
     @generic.extras.JsonKey("Name") name: Option[String] = None,
     @generic.extras.JsonKey("Tags") tags: Option[List[String]] = None,
-    @generic.extras.JsonKey("Job type") jobType: String = "interactive",
+    @generic.extras.JsonKey("Job type") jobType: String = "normal",
     @generic.extras.JsonKey("User email") email: Option[String] = None
 ) {
   // If imports are given, job waits until they are uploaded and then
   // has to be triggered manually.
   val haveClientStageIn: Boolean = setTrueIfImportsGiven(imports)
-
 
   /** Convert to HTTP Request Entity. */
   def toRequestEntity: RequestEntity = toHttpEntity.asInstanceOf[RequestEntity]
@@ -177,6 +177,7 @@ case class Credentials(username: String, password: String)
 /** Options for the HPC resources.
   *
   * @param queue Queue to place the job in. Default is `batch`, but we use devel queue here.
+  *               Defaults to `"batch"`.
   * @param nodes Number of computing nodes to use for the job.
   * @param cpus Total number of CPUs.
   * @param cpusPerNode Number of CPUs per node.
@@ -189,7 +190,7 @@ case class Credentials(username: String, password: String)
   */
 @generic.JsonCodec
 case class HpcResources(
-    @generic.extras.JsonKey("Queue") queue: String = "devel",
+    @generic.extras.JsonKey("Queue") queue: String = "batch",
     @generic.extras.JsonKey("Nodes") nodes: Int = 1,
     @generic.extras.JsonKey("CPUs") cpus: Option[Int] = None,
     @generic.extras.JsonKey("CPUsPerNode") cpusPerNode: Option[Int] = None,

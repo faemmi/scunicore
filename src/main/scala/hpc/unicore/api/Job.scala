@@ -1,13 +1,11 @@
 package hpc.unicore.api
 
 import hpc.unicore.http
-import akka.actor
 import akka.http.scaladsl.model.HttpRequest
 
 import scala.concurrent.{Future, ExecutionContext}
-import hpc.unicore.http
 
-/** A job that was created by submitting a [[api.requests.JobDescription]] to the UNICORE API.
+/** A job that was created by submitting a [[requests.JobDescription]] to the UNICORE API.
   *
   * @constructor Create a job that has been deployed via the UNICORE API.
   * @param id The ID of the job assigned by UNICORE.
@@ -44,7 +42,7 @@ class Job(
   /** Returns if the job is running. */
   def isRunning(): Future[Boolean] = status().map({
     case Job.Status.Failed | Job.Status.Successful => false
-    case _                                                 => true
+    case _                                         => true
   })
 
   /** Returns if the job has failed. */

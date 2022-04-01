@@ -3,7 +3,6 @@ package hpc.unicore.api
 import hpc.unicore.http
 
 import scala.concurrent.{Future, ExecutionContext}
-import hpc.unicore.http
 
 /** A given registry does not provide any API URLs of computation sites. */
 case class NoSitesAvailableException(message: String) extends Exception

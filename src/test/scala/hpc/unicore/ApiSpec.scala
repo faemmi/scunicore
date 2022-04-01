@@ -3,8 +3,6 @@ package hpc.unicore
 import akka.http.scaladsl.model.{Uri, headers}
 import akka.util.ByteString
 import org.scalatest
-import hpc.unicore.testutils
-import hpc.unicore.api
 
 import scala.concurrent.ExecutionContext
 

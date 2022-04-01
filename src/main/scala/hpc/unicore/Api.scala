@@ -3,8 +3,6 @@ package hpc.unicore
 import scala.annotation.tailrec
 import scala.concurrent.{Future, ExecutionContext}
 import akka.http.scaladsl.model.{HttpHeader, HttpResponse, headers}
-import hpc.unicore.http
-import hpc.unicore.api
 
 /** Connection to a given cluster's UNICORE API.
   *

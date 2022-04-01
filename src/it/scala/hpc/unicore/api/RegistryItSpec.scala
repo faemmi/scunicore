@@ -1,14 +1,15 @@
 package hpc.unicore.api
 
 import hpc.unicore.testutils
-import hpc.unicore.api.http
+import hpc.unicore.http
 import org.scalatest
 
 import scala.concurrent.{ExecutionContext, Future}
 
 class RegistryItSpec extends scalatest.FlatSpec with scalatest.Matchers with scalatest.PrivateMethodTester {
-  implicit val akkaRuntime = testutils.FakeAkkaRuntime.create()
-  implicit val ec: ExecutionContext = akkaRuntime.executionContext
+  implicit val actor = akka.actor.ActorSystem()
+  implicit val ec: ExecutionContext = ExecutionContext.global
+
   val registryUrl = "https://fzj-unic.fz-juelich.de:9112/FZJ/rest/registries/default_registry"
   val httpClient = new http.Client(baseUrl = registryUrl)
   val registry = new Registry(httpClient)

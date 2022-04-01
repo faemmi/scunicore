@@ -2,8 +2,6 @@ package hpc.unicore
 
 import com.typesafe.scalalogging
 
-import scala.concurrent.Future
-
 /** Base class for Components. */
 abstract class Component {
 

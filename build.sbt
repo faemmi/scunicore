@@ -58,6 +58,7 @@ def configureBuildInfo(packageName: String): Seq[Def.Setting[_]] =
   )
 
 lazy val root = (project in file("."))
+  .configs(IntegrationTest)
   .settings(
     name := "scunicore",
     libraryDependencies ++= Seq(
@@ -68,8 +69,9 @@ lazy val root = (project in file("."))
       circeParser,
       circeGenericExtras,
       scalaLogging,
-      scalatest
-    )
+      scalatest % "test,it"
+    ),
+    Defaults.itSettings
   )
   .enablePlugins(ScalaUnidocPlugin)
   .settings(configureBuildInfo("hpc.unicore.buildinfo"))

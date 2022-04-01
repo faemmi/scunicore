@@ -25,7 +25,7 @@ class JobDescriptionSpec extends scalatest.FlatSpec with scalatest.Matchers {
 
   "The job class" should "generate an httpEntity correctly" in {
     val expected =
-      """{"Executable":"/bin/ls","Arguments":["."],"Project":"test project","Job type":"interactive","haveClientStageIn":true,"Resources":{"Queue":"devel","Nodes":1},"Imports":[{"From":"here","To":"there","FailOnError":true}]}"""
+      """{"Executable":"/bin/ls","Arguments":["."],"Project":"test project","Job type":"normal","haveClientStageIn":true,"Resources":{"Queue":"batch","Nodes":1},"Imports":[{"From":"here","To":"there","FailOnError":true}]}"""
     val ent = job.toHttpEntity
     ent.contentType should be(ContentTypes.`application/json`)
     val answer = ent.getDataBytes().map(s => s.utf8String).runWith(Sink.head[String], materializer)

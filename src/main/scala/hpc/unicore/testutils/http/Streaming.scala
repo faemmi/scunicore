@@ -1,4 +1,4 @@
-package hpc.unicore.testutils.api.http
+package hpc.unicore.testutils.http
 
 import akka.stream.scaladsl.{Sink, Source}
 

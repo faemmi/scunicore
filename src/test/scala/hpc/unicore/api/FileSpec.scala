@@ -21,7 +21,7 @@ class FileSpec extends scalatest.FlatSpec with scalatest.Matchers {
     client.respondsWithEntity =
       Some(HttpEntity.Chunked.fromData(ContentTypes.`application/octet-stream`, responseContent))
     val source = file.download()
-    val res = source.flatMap(testutils.api.http.Streaming.materializeByteSource)
+    val res = source.flatMap(testutils.http.Streaming.materializeByteSource)
 
     val result = testutils.Concurrent.await(res)
 
