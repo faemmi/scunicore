@@ -1,0 +1,222 @@
+{
+  "owner":"CN=fzj-unic.fz-juelich.de,OU=UNICORE Registry FZJ,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+  "currentTime":"2021-10-06T17:55:06+0200",
+  "resourceStatus":"READY",
+  "entries":[
+    {
+      "ServerIdentity":"CN=fzj-njs.fz-juelich.de,OU=UNICORE Unicorex Juwels,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "InterfaceNamespace":"https://www.unicore.eu/rest",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core",
+      "type":"CoreServices",
+      "ServerPublicKey":"-----BEGIN CERTIFICATE-----\nMIIILzCCBxegAwIBAgIMI64rsKuig0BeVkh+MA0GCSqGSIb3DQEBCwUAMIGNMQsw\nCQYDVQQGEwJERTFFMEMGA1UECgw8VmVyZWluIHp1ciBGb2VyZGVydW5nIGVpbmVz\nIERldXRzY2hlbiBGb3JzY2h1bmdzbmV0emVzIGUuIFYuMRAwDgYDVQQLDAdERk4t\nUEtJMSUwIwYDVQQDDBxERk4tVmVyZWluIEdsb2JhbCBJc3N1aW5nIENBMB4XDTIw\nMTAyMDA5MzAxMFoXDTIxMTEyMTA5MzAxMFowgbYxCzAJBgNVBAYTAkRFMRwwGgYD\nVQQIDBNOb3JkcmhlaW4tV2VzdGZhbGVuMRAwDgYDVQQHDAdKdWVsaWNoMScwJQYD\nVQQKDB5Gb3JzY2h1bmdzemVudHJ1bSBKdWVsaWNoIEdtYkgxDDAKBgNVBAsMA0pT\nQzEgMB4GA1UECwwXVU5JQ09SRSBVbmljb3JleCBKdXdlbHMxHjAcBgNVBAMMFWZ6\nai1uanMuZnotanVlbGljaC5kZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC\nggEBAL5Zsu8BZJ91d63PLQhdkXah5orZpeKBBSijuLWvMn4RqfXHcQUsGUk/C/9P\nEVB/mo49rngcuBuFa+gTsyMgA2KxaGb7J80CA2DZMYNesz2jBqkfwKiTcoEQmHdI\nITgIY/021zlIf6avthjWrbJtjishROf/jsUXHpMLjR1DPct8bAds4ctn8g9fpG4b\nZhmJCx5Fan2ESbx1Z5zYxq4KGMFMmZKWNUUmSViXHlTX9xiTybGyGzN2k4Rx9hVU\nZNUXDpeP+cZLWXaLtt5lQM8B7OcAtZEMejYInA2oGadhl54gpRXF1yUnSe4JjaM/\nJPqcTKE1oc2vGR6tpRSY1ARlOhECAwEAAaOCBGIwggReMFcGA1UdIARQME4wCAYG\nZ4EMAQICMA0GCysGAQQBga0hgiweMA8GDSsGAQQBga0hgiwBAQQwEAYOKwYBBAGB\nrSGCLAEBBAgwEAYOKwYBBAGBrSGCLAIBBAgwCQYDVR0TBAIwADAOBgNVHQ8BAf8E\nBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMB0GA1UdDgQWBBQT\nX+g32kazGTA1ZeD1uS1rBq1hzTAfBgNVHSMEGDAWgBRrOpiL+fJTidrgrbIyHgkf\n6Ko7dDAgBgNVHREEGTAXghVmemotbmpzLmZ6LWp1ZWxpY2guZGUwgY0GA1UdHwSB\nhTCBgjA/oD2gO4Y5aHR0cDovL2NkcDEucGNhLmRmbi5kZS9kZm4tY2EtZ2xvYmFs\nLWcyL3B1Yi9jcmwvY2FjcmwuY3JsMD+gPaA7hjlodHRwOi8vY2RwMi5wY2EuZGZu\nLmRlL2Rmbi1jYS1nbG9iYWwtZzIvcHViL2NybC9jYWNybC5jcmwwgdsGCCsGAQUF\nBwEBBIHOMIHLMDMGCCsGAQUFBzABhidodHRwOi8vb2NzcC5wY2EuZGZuLmRlL09D\nU1AtU2VydmVyL09DU1AwSQYIKwYBBQUHMAKGPWh0dHA6Ly9jZHAxLnBjYS5kZm4u\nZGUvZGZuLWNhLWdsb2JhbC1nMi9wdWIvY2FjZXJ0L2NhY2VydC5jcnQwSQYIKwYB\nBQUHMAKGPWh0dHA6Ly9jZHAyLnBjYS5kZm4uZGUvZGZuLWNhLWdsb2JhbC1nMi9w\ndWIvY2FjZXJ0L2NhY2VydC5jcnQwggH3BgorBgEEAdZ5AgQCBIIB5wSCAeMB4QB3\nAPZclC/RdzAiFFQYCDCUVo7jTRMZM7/fDC8gC8xO8WTjAAABdUVYQbsAAAQDAEgw\nRgIhAPRjJrLqri5JyGEm7MjscA3GmlR4BRHSeZzBlnRRj/2RAiEArchORyjqfFUI\n/QBDFtI3v50HfwOXpT/uE7AQgzV3jOUAdwB9PvL4j/+IVWgkwsDKnlKJeSvFDngJ\nfy5ql2iZfiLw1wAAAXVFWESiAAAEAwBIMEYCIQDw3smlhnLGVQfpxMUyD4sTjoHI\nKa9wQeoovAvytXE7SQIhAIRlagAJTvC1IlzbTqkdj5Uc1vDbFFh1N1m9hEfRTgqT\nAHUARJRlLrDuzq/EQAfYqP4owNrmgr7YyzG1P9MzlrW2gagAAAF1RVhADQAABAMA\nRjBEAiBhUMEk0hWoOhcOCyw/sXhASicE7i+6s9tG+vjX1phApgIgc4hhqL+LPyO2\noKrucSYZ/00Sqn1A/IPM1Kn8Viu7aT0AdgBvU3asMfAxGdiZAKRRFf93FRwR2QLB\nACkGjbIImjfZEwAAAXVFWECnAAAEAwBHMEUCIQCGEOvjrlFRZswRb7pBQsFYNNVb\npd+k4TJTBdfwJrgW8gIgfmko7XqYg3pVVNAOOzfntPpG5zpnM01HnTCNsARiW5Yw\nDQYJKoZIhvcNAQELBQADggEBAH3u/n5bnSW4zeytz4Psk66vUkDXdCuSpbuzMk5f\nLsDLymii9F310ru9kwk4zsj+9VYw+Fo4i8b4StU3mlbM9uszioY/Gu1Va2+6iUDK\n82ZLvrA4dE7JYzUXYYfyVzT4LidYoTqIpMgRm7yxLlKTUpSbts0O8y+hFI2KlVI/\nDo017tYMN2GrOE3PbgTIay4pxN8SaG9AjBEXvEREMjZYbjgEaN19NlsmhbJqJn0h\nQKtB8yr362nJ/Hr5sqs8Gv7eJdcDScxnazxi8poXdHBNMusAQkU6lmTvEZBt0XB9\nt4lGID07eHT6hP2cJ2Yr1Grd9SjSVZXsii+B2BvUJHFnfpI=\n-----END CERTIFICATE-----\n"
+    },
+    {
+      "ServerIdentity":"CN=fzj-njs.fz-juelich.de,OU=UNICORE Unicorex Juwels,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "wsrf":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/services/StorageManagement?res=ROOT",
+      "InterfaceNamespace":"http://unigrids.org/2006/04/services/sms",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core/storages/ROOT",
+      "type":"StorageManagement"
+    },
+    {
+      "ServerIdentity":"CN=fzj-njs.fz-juelich.de,OU=UNICORE Unicorex Juwels,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "wsrf":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/services/TargetSystemFactoryService?res=default_target_system_factory",
+      "InterfaceNamespace":"http://unigrids.org/2006/04/services/tsf",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core/factories/default_target_system_factory",
+      "type":"TargetSystemFactory"
+    },
+    {
+      "ServerIdentity":"CN=fzj-njs.fz-juelich.de,OU=UNICORE Unicorex Juwels,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "wsrf":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/services/StorageManagement?res=SCRATCH",
+      "InterfaceNamespace":"http://unigrids.org/2006/04/services/sms",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core/storages/SCRATCH",
+      "type":"StorageManagement"
+    },
+    {
+      "ServerIdentity":"CN=fzj-njs.fz-juelich.de,OU=UNICORE Unicorex Juwels,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "wsrf":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/services/StorageManagement?res=HOME",
+      "InterfaceNamespace":"http://unigrids.org/2006/04/services/sms",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core/storages/HOME",
+      "type":"StorageManagement"
+    },
+    {
+      "ServerIdentity":"CN=fzj-njs.fz-juelich.de,OU=UNICORE Unicorex Juwels,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "wsrf":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/services/StorageFactory?res=default_storage_factory",
+      "InterfaceNamespace":"http://unigrids.org/2006/04/services/smf",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core/storagefactories/default_storage_factory",
+      "type":"StorageFactory"
+    },
+    {
+      "ServerIdentity":"CN=fzj-njs.fz-juelich.de,OU=UNICORE Unicorex Juwels,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "wsrf":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/services/StorageManagement?res=PROJECT",
+      "InterfaceNamespace":"http://unigrids.org/2006/04/services/sms",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core/storages/PROJECT",
+      "type":"StorageManagement"
+    },
+    {
+      "ServerIdentity":"CN=fzj-njs.fz-juelich.de,OU=UNICORE Workflow,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "InterfaceNamespace":"https://www.unicore.eu/rest",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/WORKFLOW/rest/workflows",
+      "type":"WorkflowServices",
+      "ServerPublicKey":"-----BEGIN CERTIFICATE-----\nMIIIKDCCBxCgAwIBAgIMIuxWDxQ10AaDfBhcMA0GCSqGSIb3DQEBCwUAMIGNMQsw\nCQYDVQQGEwJERTFFMEMGA1UECgw8VmVyZWluIHp1ciBGb2VyZGVydW5nIGVpbmVz\nIERldXRzY2hlbiBGb3JzY2h1bmdzbmV0emVzIGUuIFYuMRAwDgYDVQQLDAdERk4t\nUEtJMSUwIwYDVQQDDBxERk4tVmVyZWluIEdsb2JhbCBJc3N1aW5nIENBMB4XDTIw\nMDUyNjA4NTExNVoXDTIyMDgyODA4NTExNVowga8xCzAJBgNVBAYTAkRFMRwwGgYD\nVQQIDBNOb3JkcmhlaW4tV2VzdGZhbGVuMRAwDgYDVQQHDAdKdWVsaWNoMScwJQYD\nVQQKDB5Gb3JzY2h1bmdzemVudHJ1bSBKdWVsaWNoIEdtYkgxDDAKBgNVBAsMA0pT\nQzEZMBcGA1UECwwQVU5JQ09SRSBXb3JrZmxvdzEeMBwGA1UEAwwVZnpqLW5qcy5m\nei1qdWVsaWNoLmRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2OFp\nhD7SombVdmJvKuvyvsonoNJfDmB9eeiSToHkSQpQnuY8ivLUXXl/Ey4fYx2HPeVS\nVOFavNV/tCB9oe7+cjJJjqqbeYOoQOc4CBOmKr3R0Bosot0n1/ouCNqupji5H3wT\nWPZCNJqAl8yDafruNbn3t1qwGE/2ODKemf1+ZdUY44sFvdm6i3D1t5WyChZMoB4x\n6vHb4VDDrCYeCfkd3/BEu14ZHkt92O+9QOpMU3O1cylhPYit4IOYuwY417IL2zn0\nzDMJpE4tfXWFSWA4ZUGpmrM8DTYat4K7VyvbrXc2IuDGgcdbC9OLtyTN0ODaXCrM\n9F6i9oPSxe/VQM7hkwIDAQABo4IEYjCCBF4wVwYDVR0gBFAwTjAIBgZngQwBAgIw\nDQYLKwYBBAGBrSGCLB4wDwYNKwYBBAGBrSGCLAEBBDAQBg4rBgEEAYGtIYIsAQEE\nBjAQBg4rBgEEAYGtIYIsAgEEBjAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIFoDAd\nBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwHQYDVR0OBBYEFDgBrmTZX1bh\nKMZKV5/TFwZ6qyQRMB8GA1UdIwQYMBaAFGs6mIv58lOJ2uCtsjIeCR/oqjt0MCAG\nA1UdEQQZMBeCFWZ6ai1uanMuZnotanVlbGljaC5kZTCBjQYDVR0fBIGFMIGCMD+g\nPaA7hjlodHRwOi8vY2RwMS5wY2EuZGZuLmRlL2Rmbi1jYS1nbG9iYWwtZzIvcHVi\nL2NybC9jYWNybC5jcmwwP6A9oDuGOWh0dHA6Ly9jZHAyLnBjYS5kZm4uZGUvZGZu\nLWNhLWdsb2JhbC1nMi9wdWIvY3JsL2NhY3JsLmNybDCB2wYIKwYBBQUHAQEEgc4w\ngcswMwYIKwYBBQUHMAGGJ2h0dHA6Ly9vY3NwLnBjYS5kZm4uZGUvT0NTUC1TZXJ2\nZXIvT0NTUDBJBggrBgEFBQcwAoY9aHR0cDovL2NkcDEucGNhLmRmbi5kZS9kZm4t\nY2EtZ2xvYmFsLWcyL3B1Yi9jYWNlcnQvY2FjZXJ0LmNydDBJBggrBgEFBQcwAoY9\naHR0cDovL2NkcDIucGNhLmRmbi5kZS9kZm4tY2EtZ2xvYmFsLWcyL3B1Yi9jYWNl\ncnQvY2FjZXJ0LmNydDCCAfcGCisGAQQB1nkCBAIEggHnBIIB4wHhAHYARqVV63X6\nkSAwtaKJafTzfREsQXS+/Um4havy/HD+bUcAAAFyUC3H/AAABAMARzBFAiBuHJOf\nIN2BwOoDOk4N9l/VdHYKk+YV2Kt+cj86cH3CBwIhAKh+D+XoziqtWaowycbpBanB\n6XpCwdsTi8kN/nhtprxNAHYAu9nfvB+KcbWTlCOXqpJ7RzhXlQqrUugakJZkNo4e\n0YUAAAFyUC3HaAAABAMARzBFAiALxGWnSQbQsjz6oIcryXSRcYVe01Yej7l2mAvQ\nDTaN6AIhAKK+6f3hhC70OvRn9mqIcA0jv3j1HrZGTAoykMwOMqlxAHYAb1N2rDHw\nMRnYmQCkURX/dxUcEdkCwQApBo2yCJo32RMAAAFyUC3HigAABAMARzBFAiAOQXsx\nR4eEYN3G4vAPNZjkLTFgPrj5fEANVuboKYqpkwIhAORnjMAgjwvwUV3b46rrnd2N\ncLmiC7noO298BtZwyVHdAHcAVYHUwhaQNgFK6gubVzxT8MDkOHhwJQgXL6OqHQcT\n0wwAAAFyUC3IjgAABAMASDBGAiEAyGMiTbddlMGEbzZA1i+6sPrymK2ecthTGXw8\nER4wYcYCIQDO2DWdYz9F0Wa/U1EYhIMzTwX1JyLZrSttZYkTI6HYETANBgkqhkiG\n9w0BAQsFAAOCAQEAh4La/9EY+36AQXMzTtd/E94KrR+FfcXevB5Kv8GbKhLXkhnt\nzO+AF0Sm46ojb4Sdw7eqWbDMnUGmooy+nLK5GiHq6JVaBBjeQndOjz3UThZxq16N\n3Lz9Fz11JZ1LOyERbJOacur5oq8WyFFUXRDLtnrRmFM+D5u9+gQK9fwOUBqsIGmn\nmuUhCIX5GixTV8A/Uf5we/t1xqwpSawh2xgW3YPfMFXmttvQuXVbc192lQP741Kx\nLzNcQ1P4cMgNRGmZFabEDMpi3LSH01ZWIITWw3a1AKBeH3UBws//e5YZfxJuVMjS\neMruhO7wwcL6KiTVHlNt5uA9OLEBY8pjsw+N9Q==\n-----END CERTIFICATE-----\n"
+    },
+    {
+      "ServerIdentity":"CN=fzj-njs.fz-juelich.de,OU=UNICORE Workflow,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "wsrf":"https://zam2125.zam.kfa-juelich.de:9112/WORKFLOW/services/WorkflowFactory?res=default_workflow_submission",
+      "InterfaceNamespace":"http://www.chemomentum.org/workflow",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/WORKFLOW/rest/workflows/default_workflow_submission",
+      "type":"WorkflowFactory"
+    },
+    {
+      "ServerIdentity":"CN=fzj-njs.fz-juelich.de,OU=UNICORE Workflow,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "InterfaceNamespace":"http://www.chemomentum.org/DataManagement",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/WORKFLOW/services/locationManager",
+      "type":"locationManager"
+    },
+    {
+      "ServerIdentity":"CN=hbp-njs.fz-juelich.de,OU=UNICORE Unicorex JUSUF,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "wsrf":"https://zam2125.zam.kfa-juelich.de:9112/JUSUF/services/StorageManagement?res=ROOT",
+      "InterfaceNamespace":"http://unigrids.org/2006/04/services/sms",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUSUF/rest/core/storages/ROOT",
+      "type":"StorageManagement"
+    },
+    {
+      "ServerIdentity":"CN=hbp-njs.fz-juelich.de,OU=UNICORE Unicorex JUSUF,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "wsrf":"https://zam2125.zam.kfa-juelich.de:9112/JUSUF/services/TargetSystemFactoryService?res=default_target_system_factory",
+      "InterfaceNamespace":"http://unigrids.org/2006/04/services/tsf",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUSUF/rest/core/factories/default_target_system_factory",
+      "type":"TargetSystemFactory"
+    },
+    {
+      "ServerIdentity":"CN=hbp-njs.fz-juelich.de,OU=UNICORE Unicorex JUSUF,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "wsrf":"https://zam2125.zam.kfa-juelich.de:9112/JUSUF/services/StorageManagement?res=SCRATCH",
+      "InterfaceNamespace":"http://unigrids.org/2006/04/services/sms",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUSUF/rest/core/storages/SCRATCH",
+      "type":"StorageManagement"
+    },
+    {
+      "ServerIdentity":"CN=hbp-njs.fz-juelich.de,OU=UNICORE Unicorex JUSUF,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "InterfaceNamespace":"https://www.unicore.eu/rest",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUSUF/rest/core",
+      "type":"CoreServices",
+      "ServerPublicKey":"-----BEGIN CERTIFICATE-----\nMIIIMDCCBxigAwIBAgIMIsZHjjyjEW25nkFrMA0GCSqGSIb3DQEBCwUAMIGNMQsw\nCQYDVQQGEwJERTFFMEMGA1UECgw8VmVyZWluIHp1ciBGb2VyZGVydW5nIGVpbmVz\nIERldXRzY2hlbiBGb3JzY2h1bmdzbmV0emVzIGUuIFYuMRAwDgYDVQQLDAdERk4t\nUEtJMSUwIwYDVQQDDBxERk4tVmVyZWluIEdsb2JhbCBJc3N1aW5nIENBMB4XDTIw\nMDQyNzEyMDMxMVoXDTIyMDczMDEyMDMxMVowgbUxCzAJBgNVBAYTAkRFMRwwGgYD\nVQQIDBNOb3JkcmhlaW4tV2VzdGZhbGVuMRAwDgYDVQQHDAdKdWVsaWNoMScwJQYD\nVQQKDB5Gb3JzY2h1bmdzemVudHJ1bSBKdWVsaWNoIEdtYkgxDDAKBgNVBAsMA0pT\nQzEfMB0GA1UECwwWVU5JQ09SRSBVbmljb3JleCBKVVNVRjEeMBwGA1UEAwwVaGJw\nLW5qcy5mei1qdWVsaWNoLmRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC\nAQEA31UxV7Q8k3QAjFj47OPzW7lQWFuf2pnbfy+FSf1DkBGSaGozpa5qOPaarSCc\nOu0olLR0n2qqiOjqlgUU4mKiNOcYGAKG2EwL82xesT2kaCs+djvfplNkgIsQdZLB\nmfOGGoWh8L5ZLLVosXaOHg5e+ZXg7qNC2Dub7WNH7yNQLdq6b1EaOjCWt/rrL1aG\nPYLVOZSYV0vS0/oMuIQ90jJhN/byB6zJ8oHxmYaZ11ZwbR8gsB2Z/82XzsrKF4Qg\nrrmDnTjvsIISgYazPMxAllAR7ev/iVP+UoZRLwsgpHCz4W8HfzwtlDNMoqqYhYpH\nXM5D7zMpnx0K2uBKEfzhMekJswIDAQABo4IEZDCCBGAwVwYDVR0gBFAwTjAIBgZn\ngQwBAgIwDQYLKwYBBAGBrSGCLB4wDwYNKwYBBAGBrSGCLAEBBDAQBg4rBgEEAYGt\nIYIsAQEEBjAQBg4rBgEEAYGtIYIsAgEEBjAJBgNVHRMEAjAAMA4GA1UdDwEB/wQE\nAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwHQYDVR0OBBYEFAyB\nasDy+4gSeD5sxXb8xyX6aG+1MB8GA1UdIwQYMBaAFGs6mIv58lOJ2uCtsjIeCR/o\nqjt0MCAGA1UdEQQZMBeCFWhicC1uanMuZnotanVlbGljaC5kZTCBjQYDVR0fBIGF\nMIGCMD+gPaA7hjlodHRwOi8vY2RwMS5wY2EuZGZuLmRlL2Rmbi1jYS1nbG9iYWwt\nZzIvcHViL2NybC9jYWNybC5jcmwwP6A9oDuGOWh0dHA6Ly9jZHAyLnBjYS5kZm4u\nZGUvZGZuLWNhLWdsb2JhbC1nMi9wdWIvY3JsL2NhY3JsLmNybDCB2wYIKwYBBQUH\nAQEEgc4wgcswMwYIKwYBBQUHMAGGJ2h0dHA6Ly9vY3NwLnBjYS5kZm4uZGUvT0NT\nUC1TZXJ2ZXIvT0NTUDBJBggrBgEFBQcwAoY9aHR0cDovL2NkcDEucGNhLmRmbi5k\nZS9kZm4tY2EtZ2xvYmFsLWcyL3B1Yi9jYWNlcnQvY2FjZXJ0LmNydDBJBggrBgEF\nBQcwAoY9aHR0cDovL2NkcDIucGNhLmRmbi5kZS9kZm4tY2EtZ2xvYmFsLWcyL3B1\nYi9jYWNlcnQvY2FjZXJ0LmNydDCCAfkGCisGAQQB1nkCBAIEggHpBIIB5QHjAHcA\npLkJkLQYWBSHuxOizGdwCjw1mAT5G9+443fNDsgN3BAAAAFxu4UWtQAABAMASDBG\nAiEA8cbU+1QDo+8/C17wvilturbj2rq4qoAQQqDBxP+HMUECIQD7RLU8+kwarUuZ\np4LByrkVV5ewn0ejNV+5/JdYVY7jPgB2ALvZ37wfinG1k5Qjl6qSe0c4V5UKq1Lo\nGpCWZDaOHtGFAAABcbuFFrcAAAQDAEcwRQIgHz9OrKNIB/A8LMCi30X3zbkq90ho\nbSE3pUjfT84bV3ICIQC0uo5iVzs2KgMNpM07ffzycW+NrQktLCfebJxbXX5JtQB3\nAG9Tdqwx8DEZ2JkApFEV/3cVHBHZAsEAKQaNsgiaN9kTAAABcbuFFy4AAAQDAEgw\nRgIhAPuFpLDAAkmKhuHN8fqUqWqhyGV/9YowXywn/pe5eAGHAiEA0o4fULFqcQ03\nKE+5XhlS+KJl2qNHPZNYnZ/g5SgJh3MAdwBVgdTCFpA2AUrqC5tXPFPwwOQ4eHAl\nCBcvo6odBxPTDAAAAXG7hRhEAAAEAwBIMEYCIQDKf7Mi4CtMMHGIWLEOjaW9pTrf\n9C+w23VDQIidfKqK7gIhAJ14g9mcYbajn2fAkjP/X3MNt/OpD/CSeZsMamDV2c+c\nMA0GCSqGSIb3DQEBCwUAA4IBAQBMPw1lsjmZSJ2zrcVza/jguKHnRc5UPp8KeX9i\nqRHcox7w0FbtodMOycwqILQkrF7+IlgcD5xLpxBBtLMGBJuu0eHIdMcsD2fkwiVw\n/VC47scpaDE+LQw30r2jKI63lyty1NMvi9mOLHU5mYqxUsH3NQkJqAWuTu0JVwaw\nnYpVYQaCkn5c4fWbN+AB8P5IT0z8JYin1dRjPQ5CIsrA3HBnTrJZe2JcAh4MgEka\nHVIpVUT576GzoQsrd8LwA4Khp7Nov5OK7fXJnCbDNveVrjs6xfLVmNCr6LqVDfVZ\nfohXzAAVxyEk407aEW9yamDHob1zR58liFl6Jc7JxYTeBWUj\n-----END CERTIFICATE-----\n"
+    },
+    {
+      "ServerIdentity":"CN=hbp-njs.fz-juelich.de,OU=UNICORE Unicorex JUSUF,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "wsrf":"https://zam2125.zam.kfa-juelich.de:9112/JUSUF/services/StorageManagement?res=HOME",
+      "InterfaceNamespace":"http://unigrids.org/2006/04/services/sms",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUSUF/rest/core/storages/HOME",
+      "type":"StorageManagement"
+    },
+    {
+      "ServerIdentity":"CN=hbp-njs.fz-juelich.de,OU=UNICORE Unicorex JUSUF,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "wsrf":"https://zam2125.zam.kfa-juelich.de:9112/JUSUF/services/StorageManagement?res=PROJECT",
+      "InterfaceNamespace":"http://unigrids.org/2006/04/services/sms",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUSUF/rest/core/storages/PROJECT",
+      "type":"StorageManagement"
+    },
+    {
+      "ServerIdentity":"CN=hbp-njs.fz-juelich.de,OU=UNICORE Unicorex JUDAC,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "wsrf":"https://zam2125.zam.kfa-juelich.de:9112/JUDAC/services/StorageManagement?res=PROJECT",
+      "InterfaceNamespace":"http://unigrids.org/2006/04/services/sms",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUDAC/rest/core/storages/PROJECT",
+      "type":"StorageManagement"
+    },
+    {
+      "ServerIdentity":"CN=hbp-njs.fz-juelich.de,OU=UNICORE Unicorex JUDAC,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "InterfaceNamespace":"https://www.unicore.eu/rest",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUDAC/rest/core",
+      "type":"CoreServices",
+      "ServerPublicKey":"-----BEGIN CERTIFICATE-----\nMIIILTCCBxWgAwIBAgIMJWPEnNova1nXELQdMA0GCSqGSIb3DQEBCwUAMIGNMQsw\nCQYDVQQGEwJERTFFMEMGA1UECgw8VmVyZWluIHp1ciBGb2VyZGVydW5nIGVpbmVz\nIERldXRzY2hlbiBGb3JzY2h1bmdzbmV0emVzIGUuIFYuMRAwDgYDVQQLDAdERk4t\nUEtJMSUwIwYDVQQDDBxERk4tVmVyZWluIEdsb2JhbCBJc3N1aW5nIENBMB4XDTIx\nMDkxNzA3NDMxMFoXDTIyMTAxODA3NDMxMFowgbUxCzAJBgNVBAYTAkRFMRwwGgYD\nVQQIDBNOb3JkcmhlaW4tV2VzdGZhbGVuMRAwDgYDVQQHDAdKdWVsaWNoMScwJQYD\nVQQKDB5Gb3JzY2h1bmdzemVudHJ1bSBKdWVsaWNoIEdtYkgxDDAKBgNVBAsMA0pT\nQzEfMB0GA1UECwwWVU5JQ09SRSBVbmljb3JleCBKVURBQzEeMBwGA1UEAwwVaGJw\nLW5qcy5mei1qdWVsaWNoLmRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC\nAQEAqJ2t4EX0/5kYtElpAUAh6AUjXoDhsVHgASeU+oWe/H8NHS15865cYxnRR++w\nr/qDpWSgBeyQAiboomTCtLIMh8fKNx+8ReHbM+sTINZHMMJNOgU2Ql1uqgacpzRQ\nGgw0tir21BV6EfZcnvAHLf/Tbf+f+CcU9XXlARp/4ajyOFWy/7h93kFDNTXWd8vj\nDCjkLgDalcf0WR6x3tW2gBPF4fmwW2DoVGQWzJd0mbtwYsgDvSART4b9APXiC5Og\nhZIoVUwcod5HDG3zDUAHs1Z+afPUpREXfVeSWKrabAv9kQiItEERncOhpcnSVNTE\naO80JVhkLbugSRhVHaNyaT7W5wIDAQABo4IEYTCCBF0wVwYDVR0gBFAwTjAIBgZn\ngQwBAgIwDQYLKwYBBAGBrSGCLB4wDwYNKwYBBAGBrSGCLAEBBDAQBg4rBgEEAYGt\nIYIsAQEECTAQBg4rBgEEAYGtIYIsAgEECTAJBgNVHRMEAjAAMA4GA1UdDwEB/wQE\nAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwHQYDVR0OBBYEFKYR\neQKYAk9OUFudpaa0FySeH5d4MB8GA1UdIwQYMBaAFGs6mIv58lOJ2uCtsjIeCR/o\nqjt0MCAGA1UdEQQZMBeCFWhicC1uanMuZnotanVlbGljaC5kZTCBjQYDVR0fBIGF\nMIGCMD+gPaA7hjlodHRwOi8vY2RwMS5wY2EuZGZuLmRlL2Rmbi1jYS1nbG9iYWwt\nZzIvcHViL2NybC9jYWNybC5jcmwwP6A9oDuGOWh0dHA6Ly9jZHAyLnBjYS5kZm4u\nZGUvZGZuLWNhLWdsb2JhbC1nMi9wdWIvY3JsL2NhY3JsLmNybDCB2wYIKwYBBQUH\nAQEEgc4wgcswMwYIKwYBBQUHMAGGJ2h0dHA6Ly9vY3NwLnBjYS5kZm4uZGUvT0NT\nUC1TZXJ2ZXIvT0NTUDBJBggrBgEFBQcwAoY9aHR0cDovL2NkcDEucGNhLmRmbi5k\nZS9kZm4tY2EtZ2xvYmFsLWcyL3B1Yi9jYWNlcnQvY2FjZXJ0LmNydDBJBggrBgEF\nBQcwAoY9aHR0cDovL2NkcDIucGNhLmRmbi5kZS9kZm4tY2EtZ2xvYmFsLWcyL3B1\nYi9jYWNlcnQvY2FjZXJ0LmNydDCCAfYGCisGAQQB1nkCBAIEggHmBIIB4gHgAHcA\nRqVV63X6kSAwtaKJafTzfREsQXS+/Um4havy/HD+bUcAAAF78rWdoAAABAMASDBG\nAiEAii6iswya/ymMKSCz0ry2CYjjy72zFC6iis6dcm8z6KQCIQDjQ/j0FAZHknZf\nsPoNnZxUPpjSqti5UvTSUO2kRvcBcwB1ACl5vvCeOTkh8FZzn2Old+W+V32cYAr4\n+U1dJlwlXceEAAABe/K1pCcAAAQDAEYwRAIgHOLvJI0D0OEC8ZgsQYd36S9dRmc6\nfArTFJmMyQMYXfUCIDj1wgFfWAt+Ou8uSv32YENM88pADrJd1HRzPWhDGhhXAHYA\nb1N2rDHwMRnYmQCkURX/dxUcEdkCwQApBo2yCJo32RMAAAF78rWeWQAABAMARzBF\nAiBw2NizFknfWpGaXyLWP6rnfKlebzmM2BtGv1F5GclspgIhAPYyIMJ76WtjVEdB\nxdrrSEMraUN4g/VOhhrDn/2DSXgfAHYAVYHUwhaQNgFK6gubVzxT8MDkOHhwJQgX\nL6OqHQcT0wwAAAF78rWfZgAABAMARzBFAiEAqf2IjD4vO+pzqjtcDTOmtFNfVOCA\nO0QjZjWxFtX0QpQCIBjgmeMSTJTTKe9Vr5Oivr/0c1xZRpG6wk0Tr53ANgozMA0G\nCSqGSIb3DQEBCwUAA4IBAQABAs9wEh13BTGBgtrG8GHlRI56i4tds1WX6S6jJD86\nKKmyF6UyTHbwl793NcRDMBqHLSf+6WgaCzOsXVacfqJIS32FvQYehvx82gcQ9wCh\nZJmhvKzTX9WcGudahlem3W01lQmrXi6eHb3Z1nngaz+vGbfQIT5ANn0jPTjqeZbq\nc+03Hw5dNMD9qWYLPNdRHN18ckNEjIt5YrOZ+rYm24RAXoykxTXCJ42vGXfATPpq\nPsUWbdxa5Ff/2suUDg0a+x55Bgc01MzKVkUDGcBcsmjIjqXIYLDF/nKFT7WqG21P\ns0QfXEwJo4czKMAHYSYZ9eNC/VG+fn1o/qz5103qnwVd\n-----END CERTIFICATE-----\n"
+    },
+    {
+      "ServerIdentity":"CN=hbp-njs.fz-juelich.de,OU=UNICORE Unicorex JUDAC,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "wsrf":"https://zam2125.zam.kfa-juelich.de:9112/JUDAC/services/StorageManagement?res=SCRATCH",
+      "InterfaceNamespace":"http://unigrids.org/2006/04/services/sms",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUDAC/rest/core/storages/SCRATCH",
+      "type":"StorageManagement"
+    },
+    {
+      "ServerIdentity":"CN=hbp-njs.fz-juelich.de,OU=UNICORE Unicorex JUDAC,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "wsrf":"https://zam2125.zam.kfa-juelich.de:9112/JUDAC/services/StorageManagement?res=HOME",
+      "InterfaceNamespace":"http://unigrids.org/2006/04/services/sms",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUDAC/rest/core/storages/HOME",
+      "type":"StorageManagement"
+    },
+    {
+      "ServerIdentity":"CN=hbp-njs.fz-juelich.de,OU=UNICORE Unicorex JUDAC,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "wsrf":"https://zam2125.zam.kfa-juelich.de:9112/JUDAC/services/TargetSystemFactoryService?res=default_target_system_factory",
+      "InterfaceNamespace":"http://unigrids.org/2006/04/services/tsf",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUDAC/rest/core/factories/default_target_system_factory",
+      "type":"TargetSystemFactory"
+    },
+    {
+      "ServerIdentity":"CN=hbp-njs.fz-juelich.de,OU=UNICORE Unicorex JUDAC,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "wsrf":"https://zam2125.zam.kfa-juelich.de:9112/JUDAC/services/StorageManagement?res=ROOT",
+      "InterfaceNamespace":"http://unigrids.org/2006/04/services/sms",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUDAC/rest/core/storages/ROOT",
+      "type":"StorageManagement"
+    },
+    {
+      "ServerIdentity":"CN=fzj-njs.fz-juelich.de,OU=UNICORE Unicorex Jureca,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "wsrf":"https://zam2125.zam.kfa-juelich.de:9112/JURECA/services/StorageManagement?res=HOME",
+      "InterfaceNamespace":"http://unigrids.org/2006/04/services/sms",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JURECA/rest/core/storages/HOME",
+      "type":"StorageManagement"
+    },
+    {
+      "ServerIdentity":"CN=fzj-njs.fz-juelich.de,OU=UNICORE Unicorex Jureca,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "wsrf":"https://zam2125.zam.kfa-juelich.de:9112/JURECA/services/StorageManagement?res=ROOT",
+      "InterfaceNamespace":"http://unigrids.org/2006/04/services/sms",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JURECA/rest/core/storages/ROOT",
+      "type":"StorageManagement"
+    },
+    {
+      "ServerIdentity":"CN=fzj-njs.fz-juelich.de,OU=UNICORE Unicorex Jureca,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "wsrf":"https://zam2125.zam.kfa-juelich.de:9112/JURECA/services/TargetSystemFactoryService?res=default_target_system_factory",
+      "InterfaceNamespace":"http://unigrids.org/2006/04/services/tsf",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JURECA/rest/core/factories/default_target_system_factory",
+      "type":"TargetSystemFactory"
+    },
+    {
+      "ServerIdentity":"CN=fzj-njs.fz-juelich.de,OU=UNICORE Unicorex Jureca,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "InterfaceNamespace":"https://www.unicore.eu/rest",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JURECA/rest/core",
+      "type":"CoreServices",
+      "ServerPublicKey":"-----BEGIN CERTIFICATE-----\nMIIILDCCBxSgAwIBAgIMIuxV0J4/+Y+J2oeDMA0GCSqGSIb3DQEBCwUAMIGNMQsw\nCQYDVQQGEwJERTFFMEMGA1UECgw8VmVyZWluIHp1ciBGb2VyZGVydW5nIGVpbmVz\nIERldXRzY2hlbiBGb3JzY2h1bmdzbmV0emVzIGUuIFYuMRAwDgYDVQQLDAdERk4t\nUEtJMSUwIwYDVQQDDBxERk4tVmVyZWluIEdsb2JhbCBJc3N1aW5nIENBMB4XDTIw\nMDUyNjA4NTAxMFoXDTIyMDgyODA4NTAxMFowgbYxCzAJBgNVBAYTAkRFMRwwGgYD\nVQQIDBNOb3JkcmhlaW4tV2VzdGZhbGVuMRAwDgYDVQQHDAdKdWVsaWNoMScwJQYD\nVQQKDB5Gb3JzY2h1bmdzemVudHJ1bSBKdWVsaWNoIEdtYkgxDDAKBgNVBAsMA0pT\nQzEgMB4GA1UECwwXVU5JQ09SRSBVbmljb3JleCBKdXJlY2ExHjAcBgNVBAMMFWZ6\nai1uanMuZnotanVlbGljaC5kZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC\nggEBAKdU0cGGwX759VeIENL1xhBO3CdKcmOydGCFoa9aWQn+ohDJl06eQ101f7wr\ns8jVAakjkutiQ0G+EBjMmX/KV3cdDO9Gx3OYicYnoEQ9GX9Y7ZIli90cJfiMkQVp\nFEfocL5pa5JVz5mbneW9CxCYdeWSJLElaIw5+No3JWseITZIHED1rbsE4BVYUCxe\ndSKDfezkpxZJuHaUtSjC46ebNvv+tRo/VC93lFlhjKGOsFdklPwFQfTkk8v1P0kQ\ni9dJLZxp3FqLYvdPU3I9CZgefCcqy1Jx0+GDdfbjBWFszArBEvXCA5EQ+lhyzrgr\nnoM7LFDYAEQBHPvtrGb5OGnea2kCAwEAAaOCBF8wggRbMFcGA1UdIARQME4wCAYG\nZ4EMAQICMA0GCysGAQQBga0hgiweMA8GDSsGAQQBga0hgiwBAQQwEAYOKwYBBAGB\nrSGCLAEBBAYwEAYOKwYBBAGBrSGCLAIBBAYwCQYDVR0TBAIwADAOBgNVHQ8BAf8E\nBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMB0GA1UdDgQWBBQC\n1fMrcgsih7PxL6LRXXrmUrP3DTAfBgNVHSMEGDAWgBRrOpiL+fJTidrgrbIyHgkf\n6Ko7dDAgBgNVHREEGTAXghVmemotbmpzLmZ6LWp1ZWxpY2guZGUwgY0GA1UdHwSB\nhTCBgjA/oD2gO4Y5aHR0cDovL2NkcDEucGNhLmRmbi5kZS9kZm4tY2EtZ2xvYmFs\nLWcyL3B1Yi9jcmwvY2FjcmwuY3JsMD+gPaA7hjlodHRwOi8vY2RwMi5wY2EuZGZu\nLmRlL2Rmbi1jYS1nbG9iYWwtZzIvcHViL2NybC9jYWNybC5jcmwwgdsGCCsGAQUF\nBwEBBIHOMIHLMDMGCCsGAQUFBzABhidodHRwOi8vb2NzcC5wY2EuZGZuLmRlL09D\nU1AtU2VydmVyL09DU1AwSQYIKwYBBQUHMAKGPWh0dHA6Ly9jZHAxLnBjYS5kZm4u\nZGUvZGZuLWNhLWdsb2JhbC1nMi9wdWIvY2FjZXJ0L2NhY2VydC5jcnQwSQYIKwYB\nBQUHMAKGPWh0dHA6Ly9jZHAyLnBjYS5kZm4uZGUvZGZuLWNhLWdsb2JhbC1nMi9w\ndWIvY2FjZXJ0L2NhY2VydC5jcnQwggH0BgorBgEEAdZ5AgQCBIIB5ASCAeAB3gB1\nALvZ37wfinG1k5Qjl6qSe0c4V5UKq1LoGpCWZDaOHtGFAAABclAs0BgAAAQDAEYw\nRAIgQAof8YlxITMiWq/RMD0zq/riYxy4lcUd1baBc6IrvP8CIHHsI4Y7ZZ2Y0wlV\nvpz4cULHBWgU4i4mFj5VitxuLkY7AHUARqVV63X6kSAwtaKJafTzfREsQXS+/Um4\nhavy/HD+bUcAAAFyUCzR3gAABAMARjBEAiBcZNj875kdqvbQRMqJVke3bcQVOLi7\nziNnxrdBxvs0XQIgRf9vt19imiukVusz9lex1RmPe4mi6/cHAaGdbhhghBUAdwBv\nU3asMfAxGdiZAKRRFf93FRwR2QLBACkGjbIImjfZEwAAAXJQLNF7AAAEAwBIMEYC\nIQD3DFaZhKYRGsF/ZwM2heNKSIq0Sxs7eqRtC8mmW1y9IQIhAOg0EHo6C+aYzDfT\nYZi0Ph8bsFAWzpM1kmmSrpWo89BXAHUAVYHUwhaQNgFK6gubVzxT8MDkOHhwJQgX\nL6OqHQcT0wwAAAFyUCzSdAAABAMARjBEAiBm4JJGlF2QoYm7Evi0UMcR8z4IjYgd\nuHhjm7F1218BowIgVkCSccSwykmB1PorfL1zNSuMIncALN9Y+DFiS3WofcUwDQYJ\nKoZIhvcNAQELBQADggEBAEtbSOIH9+GZVHFmE9LNa1gl/kfZR3HXuEuPNGCHqC4Y\nJ2jqOu7HuSKbBRnp+bI9bh1xFHg9jX3qzDrTD/6pjf6GfnO5UjERZJIIsf3rdaHm\np6OVXoDQERuuDajYMlTbP/PTYIRqqdqgbiK8c54usmn4Jx5GgQi4mD0FUYRhipXt\nj7fI2LsJfSawnRTRToYz8eT2aV2elK2O1qGVOB6maArpbqyuWeXPEMyuIYTD70XS\npiVkWbusMFG+Qo9O5sFfuCiQgiaOpcy2U2bArwUgVmUOEGXmjMqeNHzdsxBpQcR+\nhUxWx0Gre60IouXiIGRXTxr/YdYPgFx4egP1LuZfnkM=\n-----END CERTIFICATE-----\n"
+    },
+    {
+      "ServerIdentity":"CN=fzj-njs.fz-juelich.de,OU=UNICORE Unicorex Jureca,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "wsrf":"https://zam2125.zam.kfa-juelich.de:9112/JURECA/services/StorageFactory?res=default_storage_factory",
+      "InterfaceNamespace":"http://unigrids.org/2006/04/services/smf",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JURECA/rest/core/storagefactories/default_storage_factory",
+      "type":"StorageFactory"
+    },
+    {
+      "ServerIdentity":"CN=fzj-njs.fz-juelich.de,OU=UNICORE Unicorex Jureca,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "wsrf":"https://zam2125.zam.kfa-juelich.de:9112/JURECA/services/StorageManagement?res=PROJECT",
+      "InterfaceNamespace":"http://unigrids.org/2006/04/services/sms",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JURECA/rest/core/storages/PROJECT",
+      "type":"StorageManagement"
+    },
+    {
+      "ServerIdentity":"CN=fzj-njs.fz-juelich.de,OU=UNICORE Unicorex Jureca,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "wsrf":"https://zam2125.zam.kfa-juelich.de:9112/JURECA/services/StorageManagement?res=SCRATCH",
+      "InterfaceNamespace":"http://unigrids.org/2006/04/services/sms",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JURECA/rest/core/storages/SCRATCH",
+      "type":"StorageManagement"
+    }
+  ],
+  "_links":{
+    "self":{
+      "href":"https://fzj-unic.fz-juelich.de:9112/FZJ/rest/registries/default_registry"
+    }
+  },
+  "resourceStatusMessage":"N/A",
+  "siteName":"FZJ",
+  "acl":[
+
+  ],
+  "tags":[
+
+  ]
+}

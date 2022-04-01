@@ -1,0 +1,151 @@
+{
+  "server":{
+    "jobSubmission":{
+      "message":"",
+      "enabled":true
+    },
+    "credential":{
+      "dn":"CN=fzj-njs.fz-juelich.de,OU=UNICORE Unicorex Juwels,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "issuer":"CN=DFN-Verein Global Issuing CA,OU=DFN-PKI,O=Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.,C=DE"
+    },
+    "externalConnections":{
+      "UFTPD Server":"OK",
+      "XUUDB attribute source":"OK",
+      "Gateway":"OK",
+      "Registry":"OK",
+      "UFTPD judac05.fz-juelich.de:64333":"OK",
+      "TSI 1":"OK"
+    },
+    "trustedCAs":[
+      "CN=LIP Certification Authority,O=LIPCA,C=PT",
+      "CN=DigitalTrust IGTF CA,O=DigitalTrust L.L.C.,C=AE",
+      "CN=QuoVadis Root CA 2 G3,O=QuoVadis Limited,C=BM",
+      "CN=DigiCert Grid Trust CA G2,OU=www.digicert.com,O=DigiCert Grid,C=US",
+      "CN=DigitalTrust Secure CA G3  [Run by the Issuer],O=Digital Trust L.L.C.,C=AE",
+      "CN=ANSPGrid CA,OU=ANSPGrid CA,O=ANSP,C=BR",
+      "CN=NIIF Root CA 2,OU=Certificate Authorities,O=NIIF,C=HU",
+      "CN=AC GRID-FR Robots,OU=GRID-FR,O=MENESR,C=FR",
+      "CN=TSU Root CA,DC=TSU,DC=GE",
+      "CN=CERN Grid Certification Authority,DC=cern,DC=ch",
+      "CN=GEANT eScience SSL CA 4,O=GEANT Vereniging,C=NL",
+      "CN=Grid Canada Certificate Authority,O=Grid,C=CA",
+      "CN=DigiCert Grid Trust CA,OU=www.digicert.com,O=DigiCert Grid,C=US",
+      "CN=MREN-CA,DC=MREN,DC=ac,DC=me",
+      "CN=Polish Grid CA 2019,O=GRID,C=PL",
+      "CN=NorduGrid Certification Authority 2015,O=NorduGrid,O=Grid",
+      "CN=HPCI CA,OU=HPCI,O=NII,C=JP",
+      "CN=AC GRID-FR Personnels,OU=GRID-FR,O=MENESR,C=FR",
+      "CN=DigitalTrust Assured CA G3  [Run by the Issuer],O=Digital Trust L.L.C.,C=AE",
+      "CN=CA,OU=UNAM,O=UNAMgrid,C=MX",
+      "CN=Root Certificate Authority at CNIC,DC=Grid,DC=CN",
+      "CN=DZ e-Science CA,O=DZ e-Science GRID,DC=ARN,DC=DZ",
+      "CN=ArmeSFo CA,O=ArmeSFo,C=AM",
+      "CN=IRAN-GRID-G2 CA,OU=GCG,O=IPM,C=IR",
+      "CN=DigitalTrust Private Root CA G4,O=DigitalTrust L.L.C.,C=AE",
+      "CN=USERTrust ECC Certification Authority,O=The USERTRUST Network,L=Jersey City,ST=New Jersey,C=US",
+      "CN=AC GRID-FR,OU=GRID-FR,O=MENESR,C=FR",
+      "CN=AEGIS-CA,O=AEGIS,C=RS",
+      "CN=QuoVadis Root CA 2,O=QuoVadis Limited,C=BM",
+      "CN=KENET ROOT CA,OU=Research Services,O=Kenya Education Network Trust,DC=kenet,DC=ke",
+      "CN=UK e-Science CA 2B,OU=Authority,O=eScienceCA,C=UK",
+      "CN=USERTrust RSA Certification Authority,O=The USERTRUST Network,L=Jersey City,ST=New Jersey,C=US",
+      "CN=DFN-Verein Certification Authority 2,OU=DFN-PKI,O=Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.,C=DE",
+      "CN=DigiCert Grid CA-1 G2,O=DigiCert Grid,DC=DigiCert-Grid,DC=com",
+      "CN=TERENA eScience SSL CA 3,O=TERENA,L=Amsterdam,ST=Noord-Holland,C=NL",
+      "CN=DFN-Verein PCA Grid - G01,OU=DFN-PKI,O=DFN-Verein,C=DE",
+      "CN=DigitalTrust Secure CA G4  [Run by the Issuer],O=Digital Trust L.L.C.,C=AE",
+      "CN=KEK GRID Certificate Authority,OU=CRC,O=KEK,C=JP",
+      "CN=SRCE CA,OU=srce,O=edu,C=HR",
+      "CN=GridKa-CA,O=GermanGrid,C=DE",
+      "CN=MaGrid CA,O=MaGrid,C=MA",
+      "CN=PKIGrid,L=CeSPI,OU=UNLP,O=e-Ciencia,C=AR",
+      "CN=DFN-Verein Global Issuing CA,OU=DFN-PKI,O=Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.,C=DE",
+      "CN=QuoVadis Root CA 3 G3,O=QuoVadis Limited,C=BM",
+      "CN=GEANT eScience Personal ECC CA 4,O=GEANT Vereniging,C=NL",
+      "CN=KISTI Certification Authority,O=KISTI,C=KR",
+      "CN=TERENA eScience Personal CA 3,O=TERENA,L=Amsterdam,ST=Noord-Holland,C=NL",
+      "CN=TR-Grid CA,O=TRGrid,C=TR",
+      "CN=KENET CA,OU=Research Services,O=Kenya Education Network Trust,DC=kenet,DC=ke",
+      "CN=PK-GRID-CA,O=NCP,C=PK",
+      "CN=UGRID CA G2,DC=ugrid,DC=org",
+      "CN=PSC MyProxy CA,O=Pittsburgh Supercomputing Center,C=US",
+      "CN=CESNET CA 4,O=CESNET CA,DC=cesnet-ca,DC=cz",
+      "CN=DigiCert Grid CA-1,O=DigiCert Grid,DC=DigiCert-Grid,DC=com",
+      "CN=CNRS2-Projets,O=CNRS,C=FR",
+      "CN=GEANT eScience SSL ECC CA 4,O=GEANT Vereniging,C=NL",
+      "CN=Indian Grid Certification Authority 2,DC=GARUDAINDIA,DC=IN",
+      "CN=InCommon IGTF Server CA,OU=InCommon,O=Internet2,C=US",
+      "CN=DigiCert Grid Root CA,O=DigiCert Grid,DC=DigiCert-Grid,DC=com",
+      "CN=NIKHEF medium-security certification auth,O=NIKHEF,C=NL",
+      "CN=TERENA SSL CA 3,O=TERENA,L=Amsterdam,ST=Noord-Holland,C=NL",
+      "CN=MyProxy CA 2013,OU=Certificate Authorities,O=National Center for Supercomputing Applications,C=US",
+      "CN=CERN Root Certification Authority 2,O=CERN,C=ch",
+      "CN=MARGI-CA,O=MARGI,C=MK",
+      "CN=DigitalTrust Assured CA G4  [Run by the Issuer],O=Digital Trust L.L.C.,C=AE",
+      "CN=GRID2-FR,O=CNRS,C=FR",
+      "CN=Russian Data-Intensive Grid CA,O=RDIG,C=RU",
+      "CN=SlovakGrid CA,O=SlovakGrid,C=SK",
+      "CN=DigiCert Assured ID Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US",
+      "CN=CESNET CA Root,O=CESNET CA,DC=cesnet-ca,DC=cz",
+      "CN=RomanianGRID CA,OU=Certification Authority,O=ROSA,DC=RomanianGRID,DC=RO",
+      "CN=HKU Grid CA 2,DC=GRID,DC=HKU,DC=HK",
+      "CN=REUNA Certification Authority,O=REUNACA,C=CL",
+      "CN=DCA Root G1 CA,O=Certification Authorities,DC=dutchgrid,DC=nl",
+      "CN=AC GRID-FR Services,OU=GRID-FR,O=MENESR,C=FR",
+      "CN=UK e-Science Root,OU=Authority,O=eScienceRoot,C=UK",
+      "CN=COMODO RSA Certification Authority,O=COMODO CA Limited,L=Salford,ST=Greater Manchester,C=GB",
+      "CN=GEANT eScience Personal CA 4,O=GEANT Vereniging,C=NL",
+      "CN=BG.ACAD CA,DC=acad,DC=bg",
+      "CN=Academia Sinica Grid Computing Certification Authority Mercury,O=AS,C=TW",
+      "CN=PKIUNAMgrid,OU=UNAMgrid,O=UNAM,C=MX",
+      "CN=CNRS2,O=CNRS,C=FR",
+      "CN=Belarusian Grid Certification Authority,O=uiip.bas-net.by,DC=grid,DC=by",
+      "CN=T-TeleSec GlobalRoot Class 2,OU=T-Systems Trust Center,O=T-Systems Enterprise Services GmbH,C=DE",
+      "CN=fzj-njs.fz-juelich.de,OU=UNICORE Xuudb,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "CN=SEE-GRID CA 2013,DC=SEE-GRID,DC=ORG",
+      "CN=QuoVadis Grid ICA G2,O=QuoVadis Limited,C=BM",
+      "CN=SiGNET CA,O=SiGNET,C=SI",
+      "CN=CILogon Silver CA 1,O=CILogon,C=US,DC=cilogon,DC=org",
+      "CN=Institute of High Energy Physics Certification Authority,O=HEP,C=CN",
+      "CN=HellasGrid CA 2016,OU=Certification Authorities,O=HellasGrid,C=GR",
+      "CN=Scientific Data Grid CA - G2,DC=SDG,DC=Grid,DC=CN"
+    ],
+    "version":"8.2.0",
+    "trustedSAMLIssuers":[
+      "CN=unity-jsc.fz-juelich.de,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE"
+    ]
+  },
+  "_links":{
+    "storages":{
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core/storages"
+    },
+    "client-server-transfers":{
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core/client-server-transfers"
+    },
+    "transfers":{
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core/transfers"
+    },
+    "jobs":{
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core/jobs"
+    },
+    "factories":{
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core/factories"
+    },
+    "sites":{
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core/sites"
+    },
+    "registries":{
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core/registries"
+    },
+    "storagefactories":{
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core/storagefactories"
+    }
+  },
+  "client":{
+    "role":{
+      "selected":"anonymous"
+    },
+    "dn":"CN=ANONYMOUS,O=UNKNOWN,OU=UNKNOWN",
+    "xlogin":{}
+  }
+}

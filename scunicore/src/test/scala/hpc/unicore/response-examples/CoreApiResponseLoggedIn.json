@@ -1,0 +1,83 @@
+{
+  "server":{
+    "jobSubmission":{
+      "message":"",
+      "enabled":true
+    },
+    "credential":{
+      "dn":"CN=fzj-njs.fz-juelich.de,OU=UNICORE Unicorex Juwels,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE",
+      "issuer":"CN=DFN-Verein Global Issuing CA,OU=DFN-PKI,O=Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.,C=DE"
+    },
+    "externalConnections":{
+      "UFTPD Server":"OK",
+      "XUUDB attribute source":"OK",
+      "Gateway":"OK",
+      "Registry":"OK",
+      "UFTPD judac05.fz-juelich.de:64333":"OK",
+      "TSI 1":"OK"
+    },
+    "trustedCAs":[
+      "CN=LIP Certification Authority,O=LIPCA,C=PT",
+      "CN=Scientific Data Grid CA - G2,DC=SDG,DC=Grid,DC=CN"
+    ],
+    "version":"8.2.0",
+    "trustedSAMLIssuers":[
+      "CN=unity-jsc.fz-juelich.de,OU=JSC,O=Forschungszentrum Juelich GmbH,L=Juelich,ST=Nordrhein-Westfalen,C=DE"
+    ]
+  },
+  "_links":{
+    "storages":{
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core/storages"
+    },
+    "client-server-transfers":{
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core/client-server-transfers"
+    },
+    "transfers":{
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core/transfers"
+    },
+    "jobs":{
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core/jobs"
+    },
+    "factories":{
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core/factories"
+    },
+    "sites":{
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core/sites"
+    },
+    "registries":{
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core/registries"
+    },
+    "storagefactories":{
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core/storagefactories"
+    }
+  },
+  "client":{
+    "role":{
+      "selected":"user",
+      "availableRoles":[
+        "user"
+      ]
+    },
+    "queues":{
+      "availableQueues":[
+        "gpus",
+        "batch",
+        "develgpus",
+        "devel",
+        "develbooster"
+      ],
+      "selected":"gpus"
+    },
+    "dn":"UID=test-user@email.domain",
+    "xlogin":{
+      "UID":"test-user",
+      "availableGroups":[
+        "test-group"
+      ],
+      "availableUIDs":[
+        "test-user"
+      ],
+      "group":"test-group"
+    }
+  }
+}

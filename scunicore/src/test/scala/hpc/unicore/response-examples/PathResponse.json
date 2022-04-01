@@ -1,0 +1,14 @@
+{
+  "owner":"test-owner",
+  "size":3,
+  "_links":{
+    "parentStorage":{
+      "description":"Parent Storage",
+      "href":"https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core/storages/fe0d15f0-9644-4f55-af74-325449128669-uspace"
+    }
+  },
+  "permissions":"rw-------",
+  "lastAccessed":"2022-03-22T11:43:48+0100",
+  "isDirectory":false,
+  "group":"test-group"
+}
