@@ -1,6 +1,6 @@
 package hpc.unicore
 
-import com.typesafe.scalalogging.Logger
+import com.typesafe.scalalogging
 
 import scala.concurrent.Future
 
@@ -8,6 +8,6 @@ import scala.concurrent.Future
 abstract class Component {
 
   /** Typesafe logger. */
-  protected final val logger: Logger = Logger(getClass)
+  protected final val logger: scalalogging.Logger = scalalogging.Logger(getClass)
   logger.trace("Initializing...")
 }

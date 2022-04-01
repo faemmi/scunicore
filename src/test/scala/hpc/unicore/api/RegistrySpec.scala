@@ -7,9 +7,10 @@ import org.scalatest
 import scala.concurrent.{ExecutionContext, Future}
 
 class RegistrySpec extends scalatest.FlatSpec with scalatest.Matchers with scalatest.PrivateMethodTester {
-  implicit val akkaRuntime = testutils.FakeAkkaRuntime.create()
-  implicit val ec: ExecutionContext = akkaRuntime.executionContext
-  val client = new testutils.api.http.FakeClient()
+  implicit val actor: akka.actor.ActorSystem = akka.actor.ActorSystem()
+  implicit val ec: ExecutionContext = ExecutionContext.global
+
+  val client = new testutils.http.FakeClient()
   val registry = new Registry(client)
 
   // Private methods.

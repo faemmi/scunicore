@@ -1,15 +1,15 @@
-package hpc.unicore.api.http
+package hpc.unicore.http
 
 import akka.http.scaladsl.model.{HttpEntity, HttpRequest, RequestEntity, headers}
 import org.scalatest.{FlatSpec, Matchers, PrivateMethodTester}
 
-import hpc.unicore.api.http
-import hpc.unicore.testutils
+import scala.concurrent.ExecutionContext
 
 class RestClientSuite extends FlatSpec with Matchers with PrivateMethodTester {
+  implicit val actor: akka.actor.ActorSystem = akka.actor.ActorSystem()
+  implicit val ec: ExecutionContext = ExecutionContext.global
 
-  implicit val akkaRuntime = testutils.FakeAkkaRuntime.create()
-  val client = new http.Client(baseUrl = "test-url")
+  val client = new Client(baseUrl = "test-url")
 
   val buildEndpointUrl = PrivateMethod[String](Symbol("buildEndpointUrl"))
   val buildAuthenticationHeader = PrivateMethod[headers.Authorization](Symbol("buildAuthenticationHeader"))

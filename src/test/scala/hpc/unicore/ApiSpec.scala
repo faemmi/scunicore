@@ -1,17 +1,19 @@
-package hpc.unicore.api.unicore
+package hpc.unicore
 
 import akka.http.scaladsl.model.{Uri, headers}
 import akka.util.ByteString
 import org.scalatest
-
-import hpc.unicore.api.requests
 import hpc.unicore.testutils
+import hpc.unicore.api
 
-class UnicoreApiSpec extends scalatest.FlatSpec with scalatest.Matchers with scalatest.PrivateMethodTester {
+import scala.concurrent.ExecutionContext
 
-  implicit val akkaRuntime = testutils.FakeAkkaRuntime.create()
-  val httpClient = new testutils.api.http.FakeClient()
-  val client = new UnicoreApi(httpClient = httpClient, credentials = Credentials("", ""))
+class ApiSpec extends scalatest.FlatSpec with scalatest.Matchers with scalatest.PrivateMethodTester {
+  implicit val actor: akka.actor.ActorSystem = akka.actor.ActorSystem()
+  implicit val ec: ExecutionContext = ExecutionContext.global
+
+  val httpClient = new testutils.http.FakeClient()
+  val client = new Api(httpClient = httpClient, credentials = Credentials("", ""))
   val getJobIdFromApiUrl = PrivateMethod[String](Symbol("getJobIdFromApiUrl"))
 
   val jobId = "cb20785f-e32a-43b8-9aab-954f09643087"
@@ -26,8 +28,8 @@ class UnicoreApiSpec extends scalatest.FlatSpec with scalatest.Matchers with sca
   }
 
   it should "submit a job" in {
-    val resources = requests.HpcResources()
-    val job = requests.JobDescription(
+    val resources = api.requests.HpcResources()
+    val job = api.requests.JobDescription(
       executable = "test",
       arguments = List("job"),
       resources = Some(resources),
@@ -50,11 +52,11 @@ class UnicoreApiSpec extends scalatest.FlatSpec with scalatest.Matchers with sca
 
   it should "get the correct job ID from an URL" in {
     val invalidUrl = "https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core/jobs/invalid/id"
-    val result = UnicoreApi invokePrivate getJobIdFromApiUrl(jobUrl)
+    val result = Api invokePrivate getJobIdFromApiUrl(jobUrl)
 
     result should be(jobId)
 
-    a[RuntimeException] should be thrownBy (UnicoreApi invokePrivate getJobIdFromApiUrl(invalidUrl))
+    a[RuntimeException] should be thrownBy (Api invokePrivate getJobIdFromApiUrl(invalidUrl))
   }
 }
 

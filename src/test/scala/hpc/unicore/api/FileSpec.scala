@@ -9,11 +9,10 @@ import org.scalatest
 import scala.concurrent.ExecutionContext
 
 class FileSpec extends scalatest.FlatSpec with scalatest.Matchers {
-  implicit val akkaRuntime = testutils.FakeAkkaRuntime.create()
-  implicit val ec: ExecutionContext = akkaRuntime.executionContext
-  implicit val mat = testutils.FakeAkkaRuntime.createMaterialier()
+  implicit val actor: akka.actor.ActorSystem = akka.actor.ActorSystem()
+  implicit val ec: ExecutionContext = ExecutionContext.global
 
-  val client = new testutils.api.http.FakeClient()
+  val client = new testutils.http.FakeClient()
   val file = new File(client)
 
   "A file" should "be downloadable" in {

@@ -1,13 +1,16 @@
 package hpc.unicore.api
 
-import hpc.unicore.testutils
-import hpc.unicore.api
 import akka.util.ByteString
 import org.scalatest
+import hpc.unicore.testutils
+
+import scala.concurrent.ExecutionContext
 
 class JobSpec extends scalatest.FlatSpec with scalatest.Matchers {
-  implicit val akkaRuntime = testutils.FakeAkkaRuntime.create()
-  val client = new testutils.api.http.FakeClient()
+  implicit val actor: akka.actor.ActorSystem = akka.actor.ActorSystem()
+  implicit val ec: ExecutionContext = ExecutionContext.global
+
+  val client = new testutils.http.FakeClient()
   val job = new Job(id = "test-id", httpClient = client)
 
   "A job" should "deliver its properties" in {
@@ -23,7 +26,7 @@ class JobSpec extends scalatest.FlatSpec with scalatest.Matchers {
     val method = job.status()
     val result = testutils.Concurrent.await(method)
 
-    result should be(api.Job.Status.Unknown)
+    result should be(Job.Status.Unknown)
   }
 
   it should "report that it's not running when failure" in {

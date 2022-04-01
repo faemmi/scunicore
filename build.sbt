@@ -26,13 +26,6 @@ ThisBuild / developers := List(
     url = url("https://github.com/faemmi")
   )
 )
-ThisBuild / test in publish := {}
-ThisBuild / test in publishLocal := {}
-
-Test / parallelExecution := true
-Test / fork := false
-IntegrationTest / parallelExecution := false
-IntegrationTest / fork := true
 
 concurrentRestrictions in Global += Tags.limit(Tags.Test, 1)
 
@@ -49,9 +42,7 @@ val akkaStream = "com.typesafe.akka" %% "akka-stream" % akkaVersion
 val circeGeneric = "io.circe" %% "circe-generic" % circeVersion
 val circeParser = "io.circe" %% "circe-parser" % circeVersion
 val circeGenericExtras = "io.circe" %% "circe-generic-extras" % circeVersion
-// logging
 val scalaLogging = "com.typesafe.scala-logging" %% "scala-logging" % scalaLoggingVersion
-// testing framework
 val scalatest = "org.scalatest" %% "scalatest" % scalaTestVersion
 
 def configureBuildInfo(packageName: String): Seq[Def.Setting[_]] =
@@ -78,11 +69,7 @@ lazy val root = (project in file("."))
       circeGenericExtras,
       scalaLogging,
       scalatest
-    ),
-    publish := {},
-    publishLocal := {},
-    test := {},
-    publishArtifact := false
+    )
   )
   .enablePlugins(ScalaUnidocPlugin)
   .settings(configureBuildInfo("hpc.unicore.buildinfo"))
